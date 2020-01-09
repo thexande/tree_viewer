@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1127502123C7EF2B00AC62AE /* NodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127502023C7EF2B00AC62AE /* NodeFactory.swift */; };
+		1127502323C7EF3D00AC62AE /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127502223C7EF3D00AC62AE /* Node.swift */; };
 		11DDEECF23A6F9580014C2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DDEECE23A6F9580014C2A6 /* AppDelegate.swift */; };
 		11DDEED123A6F9580014C2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DDEED023A6F9580014C2A6 /* ViewController.swift */; };
 		11DDEED323A6F9580014C2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DDEED223A6F9580014C2A6 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1127502023C7EF2B00AC62AE /* NodeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeFactory.swift; sourceTree = "<group>"; };
+		1127502223C7EF3D00AC62AE /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		11DDEECB23A6F9580014C2A6 /* tree_viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tree_viewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DDEECE23A6F9580014C2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DDEED023A6F9580014C2A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				11DDEED423A6F9580014C2A6 /* Main.storyboard */,
 				11DDEED723A6F9580014C2A6 /* Info.plist */,
 				11DDEED823A6F9590014C2A6 /* tree_viewer.entitlements */,
+				1127502023C7EF2B00AC62AE /* NodeFactory.swift */,
+				1127502223C7EF3D00AC62AE /* Node.swift */,
 			);
 			path = tree_viewer;
 			sourceTree = "<group>";
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1127502123C7EF2B00AC62AE /* NodeFactory.swift in Sources */,
 				11DDEED123A6F9580014C2A6 /* ViewController.swift in Sources */,
 				11DDEECF23A6F9580014C2A6 /* AppDelegate.swift in Sources */,
+				1127502323C7EF3D00AC62AE /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
